@@ -3,3 +3,17 @@
     printf("Welcome ");
     printf("to C!\n");
  }
+
+#include<stdio.h>
+ int main(){
+     printf("Welcome \nto C!");
+ }
+
+#include<stdio.h>
+ int main(){
+     printf("***************\n");
+     printf("* Welcome to C! *\n");
+     printf("***************\n");
+ }
+
+
