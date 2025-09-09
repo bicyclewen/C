@@ -1,0 +1,33 @@
+加法
+#include<stdio.h>
+ int main(){
+     int integer1=0;
+     int integer2=0;
+
+     printf("Enter first integer: ");
+     scanf("%d", &integer1);
+     printf("Enter second integer: ");
+     scanf("%d", &integer2);
+
+     int sum=0;
+     sum=integer1+integer2;
+     printf("Sum is %d\n", sum);
+ }
+
+加減後仍為正數(絕對值)
+#include <stdio.h>
+#include <stdlib.h>  // 引入這個標頭才能用 abs()
+ int main(){
+    int integer1 = 0;
+    int integer2 = 0;
+
+    printf("Enter first integer: ");
+    scanf("%d", &integer1);
+    printf("Enter second integer: ");
+    scanf("%d", &integer2);
+
+    int difference = integer1 - integer2;
+    int result = abs(difference);  // 取得差值的絕對值
+    printf("Absolute difference is %d\n", result);
+}
+
