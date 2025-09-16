@@ -1,0 +1,7 @@
+1.汽油一公升 23.7 元，輸入欲加的公升數，計算其所需金額，並輸出到小數第一位。
+#include<stdio.h>
+int main(){
+  scanf("%d", number);
+  printf("%d", &number);
+
+}
