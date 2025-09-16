@@ -1,6 +1,21 @@
 #include<stdio.h>
 int main(){
-    int number1=0;
-    int number2=0;
-    
+ printf("Enter two integers, and I will ");
+ printf("the relationship between them: ");
+ int number1=0;
+ int number2=0;
+
+scanf("%d %d", &number1, &number2);
+ if(number1==number2);
+ printf("%d is equal to %d", number1, number2);
+
+ if(number1!=number2);
+ printf("%d is not equal to %d");
+
+ if(number1>number2);
+ printf("%d is greater than %d", number1, number2);
+
+ if(number1<number2);
+ printf("%d is less than %d", number1, number2);
+return 0; //任務完成
 }
