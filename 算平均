@@ -1,6 +1,23 @@
 #include<stdio.h>
 int main(){
 	int total=0;
+	int counter=1;
+	
+	while(counter<=10){
+		printf("%s", "Enter grade:");
+		int grade=0;
+		scanf("%d", &grade);
+		total=total+grade;
+		counter=counter+1;
+	}
+	int average=total/number;
+	printf("Class average is %d\n", average);
+}
+
+
+#include<stdio.h>
+int main(){
+	int total=0;
 	int counter=0;
 	
 	printf("%s", "Enter grade, -1 to end");
